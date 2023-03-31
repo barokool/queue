@@ -16,7 +16,7 @@ export class MyQueueConsumer {
 
     if (this.count === 50) {
       this.logger.debug(`Consumed 50 messages. Exiting...`);
-      process.exit();
+      process.exit(1);
     }
   }
 
