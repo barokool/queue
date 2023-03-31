@@ -8,7 +8,7 @@ import { QueueModule } from './queue.module';
   imports: [
     BullModule.forRoot({
       redis: {
-        host: 'localhost',
+        host: 'redis',
         port: 6379,
       },
     }),

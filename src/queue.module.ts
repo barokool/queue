@@ -12,6 +12,5 @@ import { MyQueueService } from './queue.service';
   ],
   controllers: [QueueController],
   providers: [MyQueueService, MyQueueConsumer],
-  exports: [MyQueueService],
 })
 export class QueueModule {}
